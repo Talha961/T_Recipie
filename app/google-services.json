@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424654836707",
+    "firebase_url": "https://t-cafe.firebaseio.com",
+    "project_id": "t-cafe",
+    "storage_bucket": "t-cafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424654836707:android:60ee933fd4f34f1f8206d6",
+        "android_client_info": {
+          "package_name": "com.irap.cafeut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424654836707-61amvb16vbch03vmb7rbbjrb7qonfjr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEFJ062EXZ77SjpgVaiCDTTBgjso7hFHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424654836707-61amvb16vbch03vmb7rbbjrb7qonfjr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

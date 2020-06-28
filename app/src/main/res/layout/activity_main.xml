@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C3737"
+    android:orientation="vertical"
+    tools:context="com.irap.T_Recipies.MainActivity">
+
+    <ImageView
+        android:id="@+id/splashimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/loginnn"/>
+
+    <TextView
+        android:id="@+id/splasht1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bangers"
+        android:text="T-Cafe"
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/splasht2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/new_rocker"
+        android:text="Local Food App"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textSize="18sp" />
+</LinearLayout>

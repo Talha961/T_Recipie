@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.irap.T_Recipies">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label=" T-Recipies"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.irap.T_Recipies.Tab"></activity>
+        <activity android:name="com.irap.T_Recipies.Recipie" />
+        <activity
+            android:name=".ui.login.Biryani_Recipie"
+            android:label="@string/title_activity_biryani__recipie" />
+        <activity android:name="com.irap.T_Recipies.Dash_board" />
+        <activity android:name="com.irap.T_Recipies.Home" />
+        <activity android:name="com.irap.T_Recipies.SignIn" />
+        <activity android:name="com.irap.T_Recipies.Sign_up" />
+        <activity android:name="com.irap.T_Recipies.Login" />
+        <activity android:name="com.irap.T_Recipies.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
